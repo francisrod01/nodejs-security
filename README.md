@@ -24,9 +24,21 @@ This repo is covered by resources to protect and secure your Node applications a
 
 ## Get started
 
-Run the `start` command
+### 1. Installing NPM dependencies
+
+Run the `install` command to install all the dependencies.
+
+### 2. Installing MongoDB server
+
+Go to [MongoDB docs][3] to get the latest version for your system.
+
+### 3. Starting the application
+
+Run the `start` npm command to start the app:
 
 ```bash
+$ npm start
+
 > crm@1.0.0 start /home/paneladm/projects/nodejs-labs/nodejs-security
 > nodemon ./index.js --exec babel-node -e js
 
@@ -35,6 +47,7 @@ Run the `start` command
 [nodemon] watching dir(s): *.*
 [nodemon] watching extensions: js
 [nodemon] starting `babel-node ./index.js`
+
 your server is running on port 3000
 ```
 
@@ -44,3 +57,4 @@ MIT
 
 [1]: https://www.linkedin.com/learning/node-js-security/
 [2]: https://github.com/francisrod01
+[3]: https://docs.mongodb.com/manual/administration/install-community/
